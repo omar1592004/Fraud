@@ -1,0 +1,1 @@
+spectra = st.file_uploader("frauddatasetpred", type={"csv", "txt"})
