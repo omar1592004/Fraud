@@ -18,7 +18,7 @@ used_chip = float(st.number_input(label="Enter your Insulin level"))
 
 used_pin_number = float(st.number_input(label="Enter your BMI"))
 
-##online_order = float(st.number_input(label="Enter your Diabetes Pedigree Function "))
+online_order = float(st.number_input(label="Enter your Diabetes Pedigree Function "))
 
 distance_from_home = int(st.number_input(label="Enter the distance_from_home "))
 
@@ -26,7 +26,7 @@ distance_from_last_transaction = int(st.number_input(label="Enter the distance f
 
 fraud = int(st.number_input(label="Enter the fraud 0 or 1"))
 
-data_array = np.array([[amount, oldbalanceOrig, newbalanceOrig, ratio_to_median_purchase_price, used_chip, used_pin_number, distance_from_home,distance_from_last_transaction, fraud]])
+data_array = np.array([[amount, oldbalanceOrig, newbalanceOrig, ratio_to_median_purchase_price, used_chip, used_pin_number,online_order ,distance_from_home,distance_from_last_transaction]])
 
 predict = st.button("Predict")
 
