@@ -6,7 +6,7 @@
 
 import pandas as pd
 import math
-import joblib
+##import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -111,6 +111,5 @@ plt.show()
 # In[ ]:
 
 
-import joblib
-joblib.dump(knn, 'KNN.pkl')
+
 
