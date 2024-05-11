@@ -2,6 +2,8 @@
 # coding: utf-8
 
 # In[7]:
+pip install joblib
+pip install matplotlib
 
 
 import pandas as pd
